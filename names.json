@@ -1,5 +1,5 @@
 {
-    "prefixes":[
+    "prefixes": [
         "cheese",
         "cheesy",
         "cheesey",
@@ -38,7 +38,8 @@
         "woodly",
         "woodie"
     ],
-    "suffixes":[
+
+    "suffixes": [
         "bug",
         "bugger",
         "dude",
@@ -80,5 +81,4 @@
         "woodie",
         "crawler"
     ]
-    
 }
