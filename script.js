@@ -6,6 +6,15 @@ function generate() {
     document.getElementById("suffix").innerHTML = SUFFIXES[Math.floor(SUFFIXES.length * Math.random())];
 }
 
+function woodlouse() {
+    let woodlouse = document.getElementById('woodlouse');
+    let left = ((Math.random() * window.innerWidth));
+    let top = ((Math.random() * window.innerHeight));
+    woodlouse.style.left = left + 'px';
+    woodlouse.style.top = top + 'px';
+}
+
 window.onload = function() {
     generate();
+    woodlouse();    
 };
